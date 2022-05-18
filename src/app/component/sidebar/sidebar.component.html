@@ -1,0 +1,32 @@
+<div class="sidebar" [ngClass]="status ? 'close' : ' '">
+    <div class="responsive-open" (click)="clickEvent()"  >
+        <img src="./assets/img/left-arrow.svg" alt="">
+    </div>
+    <div class="sidebar-top">
+        
+        
+        <div class="side-profile">
+            <img src="./assets/img/profile.png" alt="">
+            <h6>Michael Atkisons</h6>
+            <span>My Profile</span>
+        </div>
+        <div class="menu_list">
+            <h5>MENU</h5>
+            
+            <ul>
+                <li><img src="./assets/img/i1.svg" alt=""><span>Inbox</span></li>
+                <li><img src="./assets/img/i2.svg" alt=""><span>Sent</span></li>
+                <li><img src="./assets/img/i3.svg" alt=""><span>Drafts</span></li>
+                <li><img src="./assets/img/i4.svg" alt=""><span>Deleted</span></li>
+                <li><img src="./assets/img/i5.svg" alt=""><span>Favourite</span></li>
+                <li><img src="./assets/img/i6.svg" alt=""><span>Analytics</span></li>
+                <li><img src="./assets/img/i7.svg" alt=""><span>Settings</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="sidebar-bottom">
+        <button class="main-button">Upgrade Plan</button>
+        <button class="sub-button"> Contact Support</button>
+    </div>
+</div>

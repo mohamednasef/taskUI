@@ -1,0 +1,22 @@
+.chart-bar{
+    background-color:#fff;
+    flex-grow: 1;
+    
+}
+.chart-bar-head{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 1px solid #E5E6EA;
+    img{
+        width: 20px;
+    }
+    h3{
+        color:#272727;
+    }
+
+}
+.chart-bar-body{
+    padding: 20px;
+}
